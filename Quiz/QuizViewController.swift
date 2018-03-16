@@ -9,6 +9,17 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+    
+    //問題文を格納する配列
+    var quizArray = [Any]()
+    
+    //正解数
+    var correctAnswer: Int = 0
+    
+    //クイズを表示するTextView
+    @IBOutlet var quizTextView: UITextView!
+    
+    //選択肢のボタン
 
     override func viewDidLoad() {
         super.viewDidLoad()

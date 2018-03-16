@@ -60,12 +60,12 @@
 			children = (
 				68F27D3C205B92FF004C8828 /* AppDelegate.swift */,
 				68F27D3E205B92FF004C8828 /* ViewController.swift */,
+				68F27D4E205B932A004C8828 /* QuizViewController.swift */,
+				68F27D50205B934B004C8828 /* ResultViewController.swift */,
 				68F27D40205B92FF004C8828 /* Main.storyboard */,
 				68F27D43205B92FF004C8828 /* Assets.xcassets */,
 				68F27D45205B92FF004C8828 /* LaunchScreen.storyboard */,
 				68F27D48205B9300004C8828 /* Info.plist */,
-				68F27D4E205B932A004C8828 /* QuizViewController.swift */,
-				68F27D50205B934B004C8828 /* ResultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
