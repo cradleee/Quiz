@@ -90,6 +90,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uVc-bi-5a1"/>
                     </view>
+                    <connections>
+                        <outlet property="choiceButton1" destination="tPX-8L-AKb" id="oHN-8k-mjv"/>
+                        <outlet property="choiceButton2" destination="2nz-YO-vEj" id="WgZ-UG-tnn"/>
+                        <outlet property="choiceButton3" destination="tTX-hi-Yml" id="Z0i-Yg-OAg"/>
+                        <outlet property="quizTextView" destination="PqK-cF-7Hl" id="Hkl-bG-JDj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgU-xQ-NSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

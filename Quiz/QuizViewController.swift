@@ -20,6 +20,10 @@ class QuizViewController: UIViewController {
     @IBOutlet var quizTextView: UITextView!
     
     //選択肢のボタン
+    @IBOutlet var choiceButton1: UIButton!
+    @IBOutlet var choiceButton2: UIButton!
+    @IBOutlet var choiceButton3: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
