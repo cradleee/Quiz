@@ -9,6 +9,12 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    //正解数
+    var correctAnswer: Int = 0
+    
+    //結果を表示するラベル
+    @IBOutlet var resultLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +25,10 @@ class ResultViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func back() {
+        
     }
     
 
