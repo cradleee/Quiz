@@ -86,6 +86,17 @@ class QuizViewController: UIViewController {
             choiceQuiz()
         }
     }
+    
+    func performSegueToResult() {
+        performSegue(withIdentifier: "toResultView", sender: nil)
+    }
+    //セグエを準備(prepare)するときに呼ばれるメソッド
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toResultView" {
+            let resultViewController = segue.destination as! ResultViewController
+            resultViewController.correctAnswer = self.correctAnswer
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

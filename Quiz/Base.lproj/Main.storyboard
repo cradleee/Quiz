@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="10P-CW-TOt">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -41,6 +41,9 @@
                                 <rect key="frame" x="139" y="480" width="97" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="10P-CW-TOt" kind="presentation" id="7dM-OS-2WM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,6 +98,7 @@
                         <outlet property="choiceButton2" destination="2nz-YO-vEj" id="WgZ-UG-tnn"/>
                         <outlet property="choiceButton3" destination="tTX-hi-Yml" id="Z0i-Yg-OAg"/>
                         <outlet property="quizTextView" destination="PqK-cF-7Hl" id="Hkl-bG-JDj"/>
+                        <segue destination="wH0-Sb-0VW" kind="presentation" identifier="toResultView" id="iwW-0A-jk4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgU-xQ-NSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -138,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NEd-xE-tqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="33.733133433283363"/>
+            <point key="canvasLocation" x="2057" y="34"/>
         </scene>
     </scenes>
 </document>
