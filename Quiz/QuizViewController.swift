@@ -71,6 +71,10 @@ class QuizViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func choiceAnswer(sender: UIButton) {
+        //引数のsender.tagに格納されているTagの値を使って処理を区別する
+    }
+    
     
     
 
