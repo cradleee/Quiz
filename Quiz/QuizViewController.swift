@@ -63,16 +63,33 @@ class QuizViewController: UIViewController {
         choiceButton2.setTitle(tmpArray[2] as? String, for: .normal)
         choiceButton3.setTitle(tmpArray[3] as? String, for: .normal)
         
+    }
+    
+    @IBAction func choiceAnswer(sender: UIButton) {
+        //引数のsender.tagに格納されているTagの値を使って処理を区別する
         
+    let tmpArray = quizArray[0] as![Any]
+    
+        if tmpArray[4] as! Int == sender.tag {
+            
+            //正解を増やす
+            correctAnswer = correctAnswer + 1
+        }
+        
+        //解いた問題をquizArrayから取り除く
+        quizArray.remove(at: 0)
+        
+        //解いた問題の合計があらかじめ設定していた問題数に達したら結果画面へ
+        if quizArray.count == 0 {
+            performSegueToResult()
+        } else {
+            choiceQuiz()
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func choiceAnswer(sender: UIButton) {
-        //引数のsender.tagに格納されているTagの値を使って処理を区別する
     }
     
     
