@@ -86,7 +86,6 @@ class QuizViewController: UIViewController {
             choiceQuiz()
         }
     }
-    
     func performSegueToResult() {
         performSegue(withIdentifier: "toResultView", sender: nil)
     }

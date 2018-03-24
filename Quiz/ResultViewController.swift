@@ -20,6 +20,7 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        resultLabel.text = String(correctAnswer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,6 +29,8 @@ class ResultViewController: UIViewController {
     }
     
     @IBAction func back() {
+        self.presentedViewController?.presentedViewController?
+            .dismiss(animated: true, completion: nil)
         
     }
     
