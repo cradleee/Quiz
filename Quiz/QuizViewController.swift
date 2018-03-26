@@ -32,9 +32,9 @@ class QuizViewController: UIViewController {
         var tmpArray = [Any]()
         
         //tmpArrayに問題文、３つの選択肢、答えの番号が入った配列を追加していく
-        tmpArray.append(["問題1","選択肢1","選択肢2","選択肢3",1])
-        tmpArray.append(["問題2","選択肢1","選択肢2","選択肢3",2])
-        tmpArray.append(["問題3","選択肢1","選択肢2","選択肢3",2])
+        tmpArray.append(["The Beatlesの前身となるバンドの名前は？","Queen","The Quarry Men"," The Beens",1])
+        tmpArray.append(["The Beatlesのベースは？","ポール・スチュアート","ポール・マッカートニー","ポール&ジョー",2])
+        tmpArray.append(["レコードデビューはいつ？","1960年","1961年","1962年",2])
         tmpArray.append(["問題4","選択肢1","選択肢2","選択肢3",3])
         tmpArray.append(["問題5","選択肢1","選択肢2","選択肢3",3])
         tmpArray.append(["問題6","選択肢1","選択肢2","選択肢3",3])
