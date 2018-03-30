@@ -15,6 +15,7 @@
 		68F27D4F205B932A004C8828 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F27D4E205B932A004C8828 /* QuizViewController.swift */; };
 		68F27D51205B934B004C8828 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F27D50205B934B004C8828 /* ResultViewController.swift */; };
 		68F27D53206C8228004C8828 /* greenapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F27D52206C8228004C8828 /* greenapple.png */; };
+		68F27D55206C8340004C8828 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F27D54206C8340004C8828 /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		68F27D4E205B932A004C8828 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		68F27D50205B934B004C8828 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		68F27D52206C8228004C8828 /* greenapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenapple.png; sourceTree = "<group>"; };
+		68F27D54206C8340004C8828 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		68F27D3B205B92FF004C8828 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				68F27D54206C8340004C8828 /* apple.png */,
 				68F27D3C205B92FF004C8828 /* AppDelegate.swift */,
 				68F27D3E205B92FF004C8828 /* ViewController.swift */,
 				68F27D52206C8228004C8828 /* greenapple.png */,
@@ -136,6 +139,7 @@
 				68F27D47205B92FF004C8828 /* LaunchScreen.storyboard in Resources */,
 				68F27D44205B92FF004C8828 /* Assets.xcassets in Resources */,
 				68F27D42205B92FF004C8828 /* Main.storyboard in Resources */,
+				68F27D55206C8340004C8828 /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
