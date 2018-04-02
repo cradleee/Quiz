@@ -32,12 +32,12 @@ class QuizViewController: UIViewController {
         var tmpArray = [Any]()
         
         //tmpArrayに問題文、３つの選択肢、答えの番号が入った配列を追加していく
-        tmpArray.append(["The Beatlesの前身となるバンドの名前は？","Queen","The Quarry Men"," The Beens",1])
+        tmpArray.append(["The Beatlesの前身となるバンドの名前は？","Queen","The Quarry Men"," The Beens",2])
         tmpArray.append(["The Beatlesのベースは？","ポール・スチュアート","ポール・マッカートニー","ポール&ジョー",2])
-        tmpArray.append(["レコードデビューはいつ？","1960年","1961年","1962年",2])
+        tmpArray.append(["レコードデビューはいつ？","1960年","1961年","1962年",3])
         tmpArray.append(["The Beatlesのギターは？","リンゴ・スター","ジョージ・レノン","ジョージ・ハリスン",3])
-        tmpArray.append(["リーダーはだれ？","ポール・マッカートニー","ジョン・レノン","リンゴ・スター",3])
-        tmpArray.append(["「Here comes The Sun」を作曲したのは？","ジョージ・ハリスン","ポール・マッカートニー","ジョン・レノン",3])
+        tmpArray.append(["リーダーはだれ？","ポール・マッカートニー","ジョン・レノン","リンゴ・スター",2])
+        tmpArray.append(["「Here comes The Sun」を作曲したのは？","ジョージ・ハリスン","ポール・マッカートニー","ジョン・レノン",1])
         
         //問題をシャッフルしてquizArrayに格納する
         while (tmpArray.count > 0) {
